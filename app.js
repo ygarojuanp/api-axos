@@ -1,5 +1,5 @@
 const api = axios.create({
-    baseUrl: "https://api-axos.onrender.com/"
+    baseURL: "https://api-axos.onrender.com/"
 });
 
 let section = "users";
@@ -12,6 +12,6 @@ async function listar (endpoint = `/${section}`) {
         const {data } = await api.get(endpoint);
         return data;
     } catch (error) {
-        console.log("Erro da consulta: ", erro.message)
+        console.log("Erro da consulta: ", error.message)
     }
 }
