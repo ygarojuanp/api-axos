@@ -1,19 +1,18 @@
 {
-
-  "Users": [
+  "users": [
     {
-      "id": "12",
-      "title": "Ygaro"
+      "id": 1,
+      "name": "Ygaro"
     },
     {
-      "id": "15",
-      "title": "Lara"
+      "id": 2,
+      "name": "Lara"
     }
   ],
-  "product": [
+  "products": [
     {
-      "id": "1",
-      "title": "Exemplo de Produto"
+      "id": 1,
+      "name": "Exemplo de Produto"
     }
   ]
 }
